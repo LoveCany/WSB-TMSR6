@@ -7,13 +7,6 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
     </MappedFolders>
-    <LogonCommand>
-        <!--Although very simple commands will work (such as launching an executable or script), 
-        more complicated scenarios involving multiple steps should be placed into a script file. 
-        This script file may be mapped into the container via a shared folder, and then executed 
-        via the LogonCommand directive.-->
-        <Command>curl -L -S "https://raw.fastgit.org/LoveCany/WSB-TMSR6/master/scripts/install-TMSR.bat" | cmd</Command>
-    </LogonCommand>
     <AudioInput>Disable</AudioInput>
     <VideoInput>Disable</VideoInput>
     <MemoryInMB>4096</MemoryInMB>
